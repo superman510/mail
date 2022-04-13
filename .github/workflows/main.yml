@@ -1,7 +1,7 @@
 name: MAIL
 on:
   schedule:
-    - cron: "50 6 * * *"
+    - cron: "15 7 * * *"
 jobs:
   build:
     name: building
