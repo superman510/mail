@@ -1,14 +1,14 @@
 name: MAIL
 on:
   schedule:
-    - cron: "05 6 * * *"
+    - cron: "50 6 * * *"
 jobs:
   build:
     name: building
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@v2
     - name: Set up Python 3.7
       uses: actions/setup-python@v2
       with:
